@@ -1,0 +1,64 @@
+
+📔Clases CSS Layout 
+    📔Contenedor 
+        📖Container
+            Centrar el contenido 
+
+        📖Container
+            Tamaños --> sm, md, lg, xl, xxl
+            Centra el tamaño del elemento en un tamaño especial
+
+        📖Container-fluid
+            Abarcara siempre el 100% del ancho en los tamaños
+    📔Fila
+        🔸row-cols-numero
+
+        🔸row-cols-tamaño-numero
+            xs   Menos de 576px
+            sm   Más de 576px y menos de 768px
+            md   Más de 768px y menos de 992px
+            lg   Más de 992px y menos de 1200px
+            xl   Más de 1200px y menos de 1400px
+            xxl  Más de 1400px
+
+    📔Columna
+        🔹col
+            Dividir las 12 columnas en el 
+            numero de columnas que hay 
+            dentro de un row.
+        
+
+        🔹col-auto
+            El ancho del elemento es igual a 
+            su contenido
+        
+
+        🔹col-numero    
+            Es igual al ancho del numero 
+            que le pases
+
+        🔹col-tamaño
+            xs   Menos de 576px
+            sm   Más de 576px y menos de 768px
+            md   Más de 768px y menos de 992px
+            lg   Más de 992px y menos de 1200px
+            xl   Más de 1200px y menos de 1400px
+            xxl  Más de 1400px
+
+        🔹col-tamaño-auto
+            xs   Menos de 576px
+            sm   Más de 576px y menos de 768px
+            md   Más de 768px y menos de 992px
+            lg   Más de 992px y menos de 1200px
+            xl   Más de 1200px y menos de 1400px
+            xxl  Más de 1400px
+
+        🔹col-tamaño-numero
+            xs   Menos de 576px
+            sm   Más de 576px y menos de 768px
+            md   Más de 768px y menos de 992px
+            lg   Más de 992px y menos de 1200px
+            xl   Más de 1200px y menos de 1400px
+            xxl  Más de 1400px
+
+        🔹w-100
