@@ -21,6 +21,9 @@
             xl   Más de 1200px y menos de 1400px
             xxl  Más de 1400px
 
+        🔸row-cols-auto
+        El ancho de las columnas que estan dentro de la row va ser igual al contenido que guardan 
+
     📔Columna
         🔹col
             Dividir las 12 columnas en el 
