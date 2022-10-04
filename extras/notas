@@ -65,3 +65,27 @@
             xxl  Más de 1400px
 
         🔹w-100
+    📔Alineación
+        Sintaxis:
+            eje-modo-ubicacion
+        Eje: 
+            main axis --> justifiy
+            cross axis --> align
+
+        Modo: 
+            content --> grupo 
+            items   --> linea
+            self    --> individual
+
+        Ubicacion:
+
+            align: start   --> inicio
+                   center  --> centro 
+                   end     --> fin  
+
+            justifiy: start   --> inicio
+                      center  --> centro 
+                      end     --> fin 
+                      around  --> alrededor
+                      between --> entre
+                      evenly  --> igualmente
