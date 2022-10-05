@@ -89,4 +89,48 @@
                       around  --> alrededor
                       between --> entre
                       evenly  --> igualmente
-    📔No-gutters
+    📔Gutters g-0 (Eliminar espacios de filas y columnas )
+        🟢gutters en los cuatro lados 
+            g-valor
+            g-pantalla-valor
+
+            valor: 
+            0,1,2,3,4,5
+
+            pantalla:
+                xs, sm, md, lg, xl, xxl
+            
+
+        🟢gutters en horizontal 
+            gx-valor
+            gx-pantalla-valor
+
+            valor: 
+                0,1,2,3,4,5
+
+            pantalla:
+                xs, sm, md, lg, xl, xxl
+
+        🟢gutters en vertical 
+
+            gy-valor
+            gy-pantalla-valor
+
+            valor: 
+                0,1,2,3,4,5
+
+            pantalla:
+                xs, sm, md, lg, xl, xxl
+    📔Desplazamientos 
+        Offset
+            Sintaxis:
+            offset-tamaño-numero
+
+            tamaño --> opcional
+
+            numero --> numero de columnas 
+
+            Margin: 
+
+
+        Margin
