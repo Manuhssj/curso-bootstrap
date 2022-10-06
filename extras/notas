@@ -158,5 +158,13 @@
 
             order-tamaño-numero
 
-            tamaño: Opcional
-            numero: de 1-12
+            tamaño: (Opcional) xs,sm,md,lg,xl,xxl
+            numero: de 1-5
+
+            order-first  --> Pone la columna hasta el inicio --> order: -1; -1 < 0
+            order-last   --> Pone la columna hasta el final  --> order: 6
+
+    📔Re-ordenamiento
+
+
+        
