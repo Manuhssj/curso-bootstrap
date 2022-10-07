@@ -1,0 +1,63 @@
+Utilities en Bootstrap parte 1
+-------------------------------
+
+
+📒 Colores 
+
+    🖍Colores
+
+        🔸 primary --> azul
+        🔸 secondary --> gris 
+        🔸 success --> verde
+        🔸 danger --> rojo
+        🔸 warning --> amarillo
+        🔸 info --> turquesa 
+        🔸 light --> blanco gris
+        🔸 dark --> negro 80%
+        🔸 white --> blanco 
+        🔸 transparent --> tranparente 
+        🔸 white-50 --> blanco 50%
+        🔸 black-50 --> negro 50%
+        🔸 muted --> Gris claro
+        🔸 body --> negro 100%
+
+    🖍Colores de fondo
+        Sintaxis:
+            bg-color 
+                🔸 primary --> azul
+                🔸 secondary --> gris 
+                🔸 success --> verde
+                🔸 danger --> rojo
+                🔸 warning --> amarillo
+                🔸 info --> turquesa 
+                🔸 light --> blanco gris
+                🔸 dark --> negro 80%
+                🔸 white --> blanco 
+                🔸 transparent --> tranparente 
+            bg-gradient
+            bg-opacity-valor
+                valor:   10  |   25   |   50   |    75    |
+
+    🖍Colores de texto
+        Sintaxis:
+            text-color -> textos normales
+                todos los colores menos tranparent
+
+            link-color --> Textos que actuan como hipervinculos (<a>)
+                        Estilos en :hover y :focus
+            
+
+            text-opacity-valor  --> Agrega opacidad al color de texto que hayamos definido
+                Valor:    25    |    50     |      75       |
+
+📒 Bordes
+    Añadir border:
+        border
+        border-lado
+                -top
+                -right
+                -bottom
+                -left
+    Eliminar border:
+
+    Añadir colores a los borde:
