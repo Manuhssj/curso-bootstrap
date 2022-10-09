@@ -61,3 +61,13 @@ Utilities en Bootstrap parte 1
     Eliminar border:
 
     Añadir colores a los borde:
+            Border-color
+                -primary
+                -secondary
+                -success
+                -danger
+                -warning
+                -info
+                -light
+                -dark
+                -white
