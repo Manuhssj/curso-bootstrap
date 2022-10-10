@@ -20,7 +20,6 @@ Utilities en Bootstrap parte 1
         🔸 black-50 --> negro 50%
         🔸 muted --> Gris claro
         🔸 body --> negro 100%
-
     🖍Colores de fondo
         Sintaxis:
             bg-color 
@@ -37,8 +36,8 @@ Utilities en Bootstrap parte 1
             bg-gradient
             bg-opacity-valor
                 valor:   10  |   25   |   50   |    75    |
-
     🖍Colores de texto
+
         Sintaxis:
             text-color -> textos normales
                 todos los colores menos tranparent
@@ -51,6 +50,7 @@ Utilities en Bootstrap parte 1
                 Valor:    25    |    50     |      75       |
 
 📒 Bordes
+
     Añadir border:
         border
         border-lado
@@ -65,9 +65,7 @@ Utilities en Bootstrap parte 1
                 -bottom
                 -start
                 -end
-
-
-    Añadir colores a los borde:
+    Añadir colores a los border:
         Border-color
                 -primary
                 -secondary
@@ -78,14 +76,12 @@ Utilities en Bootstrap parte 1
                 -light
                 -dark
                 -white
-
     Añadir tamaño al border
         border-{valor}
             Valor:|       1       |      2       |       3       |       4       |       5       |
 
-
 📒 Bordes redondeados
-    
+
     Añadir bordes redondeados
         rounded
         rounded-circle (hace circulos)
@@ -95,13 +91,32 @@ Utilities en Bootstrap parte 1
                -end
                -bottom
                -start
-
     Eliminar bordes redondeados
         rounded-0
-
-
     Tamaños de bordes redondeado
+
         rounded-tamaño
             rounded-1
             rounded-2
             rounded-3
+
+📒 Float
+    Sintaxis:
+        float-direccion
+
+        float-tamaño-direccion
+
+            direccion: start  |  end  |  none
+            tamaño:  xs  |  sm  |  md  |  lg  |  xl  |  xxl  
+📒 Clear
+    clearfix (se utiliza cuando hay problemas de css por el uso de float como por ejemplo el bg)
+📒 Float
+    Sintaxis:
+        d-tipoDisplay
+        d-tamaño-tipoDisplay 
+
+            Tamaño(Opcional)  --> xs,sm,md,lg,xl,xxl
+
+            Tipo display: inline
+                          block
+                          none
