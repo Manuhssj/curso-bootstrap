@@ -107,10 +107,14 @@ Utilities en Bootstrap parte 1
         float-tamaño-direccion
 
             direccion: start  |  end  |  none
-            tamaño:  xs  |  sm  |  md  |  lg  |  xl  |  xxl  
+            tamaño:  xs  |  sm  |  md  |  lg  |  xl  |  xxl 
+
 📒 Clear
+
     clearfix (se utiliza cuando hay problemas de css por el uso de float como por ejemplo el bg)
+
 📒 Float
+
     Sintaxis:
         d-tipoDisplay
         d-tamaño-tipoDisplay 
@@ -120,3 +124,18 @@ Utilities en Bootstrap parte 1
             Tipo display: inline
                           block
                           none
+
+📒 Ratio
+
+    ratio (OBLIGATORIO ANTES DE EL SIGUIENTE)
+    ratio-relaciónAspecto
+         .ratio-21x9 (21:9)
+         .ratio-16x9 (16:9)
+         .ratio-4x3 (4:3)
+         .ratio-1x1 (1:1)
+
+📒 Ratio
+
+    🔸close
+    🥣aria-label
+    ❌&times;
