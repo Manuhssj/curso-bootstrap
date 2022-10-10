@@ -55,13 +55,20 @@ Utilities en Bootstrap parte 1
         border
         border-lado
                 -top
-                -right
+                -end
                 -bottom
-                -left
+                -start
     Eliminar border:
+        border-0
+        border-lado-0
+                -top
+                -bottom
+                -start
+                -end
+
 
     Añadir colores a los borde:
-            Border-color
+        Border-color
                 -primary
                 -secondary
                 -success
@@ -71,3 +78,30 @@ Utilities en Bootstrap parte 1
                 -light
                 -dark
                 -white
+
+    Añadir tamaño al border
+        border-{valor}
+            Valor:|       1       |      2       |       3       |       4       |       5       |
+
+
+📒 Bordes redondeados
+    
+    Añadir bordes redondeados
+        rounded
+        rounded-circle (hace circulos)
+        rounded-pill (para rectangulos)
+        rounded-lado
+               -top
+               -end
+               -bottom
+               -start
+
+    Eliminar bordes redondeados
+        rounded-0
+
+
+    Tamaños de bordes redondeado
+        rounded-tamaño
+            rounded-1
+            rounded-2
+            rounded-3
