@@ -1,0 +1,50 @@
+Utilities en Bootstrap parte 2
+--------------------------------
+
+📒📄🔸🔹
+📒Espaciado
+
+    📄Espaciados:
+        🔸espacioUbicacion-tamaño
+        🔸espacioUbicacion-pantalla-tamaño
+
+        Espacio   -->  m  |  p
+
+        Ubicación -->  t  |  b  | s
+                       e  |  x  | y
+        
+        Tamaño    -->  0  |  1  | 2 
+                       3  |  4  | 5
+
+        Pantalla  -->  xs |  sm  |  md  |  lg  |  xl  |   xxl  
+    📄Centrado Horizontal:
+        🔸mx-auto
+    📄Margenes negativos: (Deshabilitados por defecto, para activar se necesita usar sass)
+
+        Sintaxis: 
+        🔸mUbicacion-nTamaño
+        🔸mubicacion-pantalla-nTamaño
+
+        m   --> Margin
+
+        ubicacion -->  t  |  b  |  s
+                       e  |  x  |  y
+        
+        n    --> Negativo
+
+        Tamaño   -->  0  |  1  |  2  
+                      3  |  4  |  5
+
+        Pantalla -->  xs  |  sm  |  md  |  lg  |  xl  |  xxl  
+        
+📒Desbordamientos
+    🔸overflow-auto
+    🔸overflow-hidden
+    🔸overflow-visible
+    🔸overflow-scroll
+
+📒 Sombras 
+    🔸shadow-sm
+    🔸shadow 
+    🔸shwadow-lg
+    🔸shadow-none
