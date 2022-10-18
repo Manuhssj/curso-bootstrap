@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Desactivado</title>
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+   
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <!-- Name -->
+        <div class="form-group">
+          <label for="userName">Nombre</label>
+          <input type="text" class="form-control" id="userName" disabled />
+        </div>
+        <!-- Last Name -->
+        <div class="form-group">
+          <label for="userLastName">Apellidos</label>
+          <input type="text" class="form-control" id="userLastName" />
+        </div>
+        <!-- Email -->
+        <div class="form-group">
+          <label for="userEmail">Correo electrónico</label>
+          <input type="email" class="form-control" id="userEmail" />
+        </div>
+        <fieldset disabled>
+          <!-- Password -->
+          <div class="form-group">
+            <label for="userPassword">Contraseña</label>
+            <input type="password" class="form-control" id="userPassword" />
+          </div>
+          <!-- Terms -->
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="userTerms" />
+            <label class="form-check-label" for="userTerms">
+              Acepto términos y condiciones
+            </label>
+          </div>
+        </fieldset>
+        <!-- Btn Subtmit -->
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  </body>
+</html>

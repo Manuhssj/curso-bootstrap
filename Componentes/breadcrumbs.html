@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Breadcrumbs</title>
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    
+    <style>
+      .breadcrumb-item + .breadcrumb-item::before {
+        color: red;
+        content: ">";
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row row-cols-1">
+        <h1 class="text-center">Breadcrumbs</h1>
+        <hr />
+        <!-- Breadcrumns nav -->
+        <nav>
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="#">Inicio</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">Fotografía</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Destacado de fotografía
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popover</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    
+  </head>
+  <body class="bg-light d-flex justify-content-center align-items-center">
+    <button
+      class="btn btn-primary"
+      data-toggle="popover"
+      title="Titulo del popover"
+      data-content="Contenido del popover"
+      data-placement="top"
+    >
+      Clic para activar popover
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+      $(function () {
+        $('[data-toggle="popover"]').popover();
+      });
+    </script>
+  </body>
+</html>
