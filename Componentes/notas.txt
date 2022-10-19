@@ -114,17 +114,17 @@ COMPONENTES DE BOOTSTRAP PARTE #1
       🔸 badge
 
    🗒 Colores
-      🔸 badge-primary
-              -secondary
-              -danger
-              -success
-              -warning
-              -light
-              -info
-              -dark
+      🔸 bg-primary
+            -secondary
+            -danger
+            -success
+            -warning
+            -light
+            -info
+            -dark
    
    🗒 Bordes redondeados.
-      🔸 badge-pill
+      🔸 rounded-pill
    
    🗒 Badges & etiquetas de encabezado.
 
@@ -151,7 +151,7 @@ COMPONENTES DE BOOTSTRAP PARTE #1
       -> Elemento padre
          🔸 carousel
          📌 id
-         📌 data-ride="carousel"
+         📌 data-bs-ride="carousel"
 
          -> Elemento padre 
             🔸 carousel-inner
