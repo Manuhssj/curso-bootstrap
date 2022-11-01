@@ -19,7 +19,7 @@
         <div class="row row-cols-1">
           <h1 class="text-center">Carousel</h1>
           <hr>
-          <!-- Carousel -->
+          <!-- Carousel #1 -->
 
           <div class="carousel slide carousel-fade " id="carousel-01" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -38,7 +38,35 @@
             </div>
           </div>
 
-        </div>
+
+          <!-- Carousel #2 -->
+
+          <div id="carousel-02" class="carousel slide" data-bs-touch="false">
+            <div class="carousel-inner">
+              <!-- Diapositiva #1 -->
+              <div class="carousel-item active" data-interval="3000">
+                <img src="img/scooter-01.jpg" alt="Scooter electrico" class="d-block w-100" >
+              </div>
+              <!-- Diapositiva #2 -->
+              <div class="carousel-item " data-interval="200">
+                <img src="img/scooter-02.jpg" alt="Scooter electrico" class="d-block w-100" >
+              </div>
+              <!-- Diapositiva #3 -->
+              <div class="carousel-item " data-interval="500">
+                <img src="img/scooter-03.jpg" alt="Scooter electrico" class="d-block w-100">
+              </div>
+            </div>
+
+            <!-- Controles -->
+            <a class="carousel-control-prev" type="button" data-bs-target="#carousel-02" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" type="button" data-bs-target="#carousel-02" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>

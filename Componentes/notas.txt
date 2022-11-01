@@ -177,14 +177,14 @@ COMPONENTES DE BOOTSTRAP PARTE #1
          🔸 carousel-control-prev
          🔸 carousel-control-next
          📌 href=""
-         📌 data-slide = “prev”
-         📌 data-slide = “next”
+         📌 data-bs-slide = “prev”
+         📌 data-bs-slide = “next”
          
          🔖 <span>
             🔸 carousel-control-prev-icon
             🔸 carousel-control-next-icon
             📌 aria-hidden = “true” 
-            📌 sr-only
+            📌 visually-hidden
    
    🗒 Indicadores
       🔖 <ol>
